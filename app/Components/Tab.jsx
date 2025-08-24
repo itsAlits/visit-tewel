@@ -14,7 +14,7 @@ export default function Tab() {
           defaultChecked
           aria-label="Semua"
         />
-        <div className="tab-content border-t border-t-base-300 bg-base-100 pt-10">
+        <div className="tab-content border-t border-t-base-300 pt-10">
           <div className="grid grid-cols-1 lg:grid-cols-4 gap-6">
             <Card />
             <Card />

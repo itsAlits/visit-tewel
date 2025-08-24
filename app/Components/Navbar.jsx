@@ -108,7 +108,7 @@ export default function Navbar() {
       {/* Mobile Sidebar */}
       <div className="drawer-side z-50">
         <label htmlFor="mobile-drawer" className="drawer-overlay"></label>
-        <aside className="min-h-full w-[80%] bg-base-100">
+        <aside className="min-h-full w-full bg-base-100">
           <div className="flex justify-between items-center border-b border-b-base-300 mb-2 px-3 py-4">
             <Image src="/logo.svg" alt="Logo" width={40} height={40} />
             <label htmlFor="mobile-drawer" className="btn btn-square btn-ghost">

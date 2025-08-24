@@ -3,7 +3,7 @@ import Collapse from "@/app/Components/Collapse";
 export default function FAQ() {
   return (
     <div>
-      <h1 className="text-3xl text-primary font-medium">
+      <h1 className="text-2xl lg:text-3xl text-primary font-medium">
         Pertanyaan Seputar Desa Ketewel
       </h1>
       <p className="text-gray-600 mt-1 mb-6">

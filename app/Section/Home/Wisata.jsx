@@ -44,7 +44,7 @@ export default function Wisata() {
       <div>
         <div className="flex justify-between items-center mb-8">
           <div>
-            <h2 className="text-3xl text-primary font-medium mb-1">
+            <h2 className="text-2xl lg:text-3xl text-primary font-medium mb-1">
               Beragam Kawasan Wisata
             </h2>
             <p className="text-gray-600">

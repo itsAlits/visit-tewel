@@ -76,7 +76,7 @@ export default function Footer() {
         <div className="border-t border-white/50 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <p className="text-blue-200 text-sm">
-              © 2024 Desa Adat Ketewel. Seluruh hak cipta dilindungi.
+              © 2025 Desa Adat Ketewel. Seluruh hak cipta dilindungi.
             </p>
             <div className="flex space-x-6">
               <a href="#" className="text-blue-200 text-sm">

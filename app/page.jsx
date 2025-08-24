@@ -63,15 +63,24 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="container mx-auto px-4 lg:px-0 mt-10 lg:mt-18">
+      <section
+        id="KabarKetewel"
+        className="container mx-auto px-4 lg:px-0 mt-10 lg:mt-18"
+      >
         <KabarKetewel />
       </section>
 
-      <section className="container mx-auto px-4 lg:px-0 mt-10 lg:mt-18">
+      <section
+        id="Wisata"
+        className="container mx-auto px-4 lg:px-0 mt-10 lg:mt-18"
+      >
         <Wisata />
       </section>
 
-      <section className="container mx-auto px-4 lg:px-0 mt-10 lg:mt-18">
+      <section
+        id="FAQ"
+        className="container mx-auto px-4 lg:px-0 mt-10 lg:mt-18"
+      >
         <FAQ />
       </section>
     </div>
