@@ -8,40 +8,41 @@ export default function Navbar() {
       title: "Tentang Desa",
       items: [
         { title: "Sejarah Desa", href: "/TentangDesa/Sejarah" },
-        { title: "Visi & Misi", href: "/tentang-desa/visi-misi" },
-        { title: "Struktur Organisasi", href: "/tentang-desa/struktur" },
+        { title: "Demografi", href: "/TentangDesa/Demografi" },
+        { title: "Struktur Prajuru", href: "/tentang-desa/struktur" },
       ],
     },
     {
       title: "Keagamaan",
-      items: [
-        { title: "Pura", href: "/keagamaan/pura" },
-        { title: "Upacara Agama", href: "/keagamaan/upacara" },
-        { title: "Kalender Bali", href: "/keagamaan/kalender" },
-      ],
+      items: [{ title: "Pura", href: "/keagamaan/pura" }],
     },
     {
       title: "Keuangan & Laporan",
       items: [
-        { title: "Laporan Keuangan", href: "/keuangan-laporan/keuangan" },
-        { title: "Laporan Kegiatan", href: "/keuangan-laporan/kegiatan" },
-        { title: "Transparansi", href: "/keuangan-laporan/transparansi" },
+        { title: "Laporan Keuangan", href: "/Laporan-Keuangan" },
+        { title: "Laporan Perencanaan", href: "/Perencanaan-Desa" },
+        {
+          title: "Laporan Pembangunan",
+          href: "/Pembangunan-Desa",
+        },
       ],
     },
     {
       title: "Pariwisata",
-      items: [
-        { title: "Objek Wisata", href: "/pariwisata/objek-wisata" },
-        { title: "Paket Wisata", href: "/pariwisata/paket" },
-        { title: "Galeri", href: "/pariwisata/galeri" },
-      ],
+      items: [{ title: "Objek Wisata", href: "/pariwisata/objek-wisata" }],
     },
     {
       title: "Layanan Informasi",
       items: [
+        { title: "Regulasi Desa Adat", href: "/Regulasi-Desa" },
         { title: "Berita", href: "/layanan-informasi/berita" },
         { title: "Pengumuman", href: "/layanan-informasi/pengumuman" },
-        { title: "Kontak", href: "/layanan-informasi/kontak" },
+        {
+          title: "Perpustakaan Digital",
+          href: "/layanan-informasi/perpustakaan-digital",
+        },
+        { title: "Prestasi", href: "/layanan-informasi/prestasi" },
+        { title: "BUBDA", href: "/layanan-informasi/bubda" },
       ],
     },
   ];
