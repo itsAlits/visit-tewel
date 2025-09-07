@@ -27,21 +27,21 @@ export default function Home() {
     <div className="pb-24">
       <section id="bgHero" className="mt-18 lg:mt-26 relative w-full h-[800px]">
         <div className="absolute inset-0 bg-black/30">
-          <div className="container mx-auto px-4 lg:px-0 h-full flex items-center">
+          <div className="container mx-auto px-4 lg:px-10 h-full -mt-16 lg:-mt-0 flex items-center">
             <div className="text-white">
               <h1 className=" text-3xl lg:text-6xl font-semibold">
                 Selamat Datang di Portal Resmi
                 <br />
                 Desa Adat Ketewel
               </h1>
-              <p className=" text-md lg:text-lg mt-4">
+              <p className=" text-sm lg:text-base mt-4">
                 Menyediakan informasi desa, layanan adat, keuangan, dan potensi
                 wisata dalam <br className="hidden lg:block" /> satu platform
                 digital yang mudah diakses.
               </p>
               <Link
                 href="/tentang-desa/sejarah"
-                className=" gap-4 flex items-center mt-8"
+                className=" gap-4 flex lg:text-base text-sm items-center mt-8"
               >
                 Jelajahi Desa <MoveRight className="size-5" />
               </Link>
@@ -53,7 +53,9 @@ export default function Home() {
                       <h2 className="text-sm text-[#BCDAFF] font-semibold uppercase">
                         {item.title}
                       </h2>
-                      <p className="mt-1">{item.description}</p>
+                      <p className="mt-1 lg:text-base text-sm">
+                        {item.description}
+                      </p>
                     </div>
                   ))}
                 </div>
@@ -65,21 +67,21 @@ export default function Home() {
 
       <section
         id="KabarKetewel"
-        className="container mx-auto px-4 lg:px-0 mt-10 lg:mt-18"
+        className="container mx-auto px-4 lg:px-10 mt-10 lg:mt-18"
       >
         <KabarKetewel />
       </section>
 
       <section
         id="Wisata"
-        className="container mx-auto px-4 lg:px-0 mt-10 lg:mt-18"
+        className="container mx-auto px-4 lg:px-10 mt-10 lg:mt-18"
       >
         <Wisata />
       </section>
 
       <section
         id="FAQ"
-        className="container mx-auto px-4 lg:px-0 mt-10 lg:mt-18"
+        className="container mx-auto px-4 lg:px-10 mt-10 lg:mt-18"
       >
         <FAQ />
       </section>

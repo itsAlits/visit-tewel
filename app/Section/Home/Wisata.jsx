@@ -44,10 +44,10 @@ export default function Wisata() {
       <div>
         <div className="flex justify-between items-center mb-8">
           <div>
-            <h2 className="text-2xl lg:text-3xl text-primary font-medium mb-1">
+            <h2 className="text-xl text-center lg:text-start lg:text-3xl text-primary font-medium mb-1">
               Beragam Kawasan Wisata
             </h2>
-            <p className="text-gray-600">
+            <p className="text-gray-600 text-center lg:text-start lg:text-base text-sm">
               Setiap Sudut, Punya Cerita — Temukan keindahan dan kearifan lokal
               Desa Ketewel dalam perjalanan yang tak terlupakan.
             </p>

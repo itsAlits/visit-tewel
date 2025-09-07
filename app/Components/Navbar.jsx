@@ -7,7 +7,7 @@ export default function Navbar() {
     {
       title: "Tentang Desa",
       items: [
-        { title: "Sejarah Desa", href: "/tentang-desa/sejarah" },
+        { title: "Sejarah Desa", href: "/TentangDesa/Sejarah" },
         { title: "Visi & Misi", href: "/tentang-desa/visi-misi" },
         { title: "Struktur Organisasi", href: "/tentang-desa/struktur" },
       ],
