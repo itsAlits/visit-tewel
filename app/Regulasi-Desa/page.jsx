@@ -4,40 +4,41 @@ import Table from "../Components/Table";
 export default function page() {
   const data = [
     {
-      nama: "Perdes No. 01/2024",
-      judul: "Tentang Pengelolaan Sampah Desa",
-      tanggal: "15 Jan 2024",
-      status: "Berlaku",
-      deskripsi:
-        "Peraturan desa tentang tata cara pengelolaan sampah dan kebersihan lingkungan",
-      action: "Lihat Detail",
+      nama: "Peraturan Baru",
+      tanggal: "01 Jan 2025",
+      nomor: "Peraturan Desa Nomor 03 Tahun 2025",
+      action: "Lihat",
     },
     {
-      nama: "Perdes No. 02/2024",
-      judul: "Tentang Retribusi Pasar Desa",
-      tanggal: "28 Feb 2024",
-      status: "Berlaku",
-      deskripsi:
-        "Peraturan mengenai tarif dan tata cara pembayaran retribusi pasar desa",
-      action: "Lihat Detail",
+      nama: "SK PENETAPAN TIM PENGAWAS DAN EDUKASI",
+      tanggal: "16 Mar 2024",
+      nomor: "SK.188.4/69/2025",
+      action: "Lihat",
     },
     {
-      nama: "Perdes No. 03/2024",
-      judul: "Tentang Bantuan Sosial",
-      tanggal: "10 Mar 2024",
-      status: "Draft",
-      deskripsi:
-        "Peraturan tentang kriteria dan mekanisme pemberian bantuan sosial kepada masyarakat",
-      action: "Lihat Detail",
+      nama: "SK PEMBENTUKAN BANK SAMPAH",
+      tanggal: "27 Feb 2024",
+      nomor: "5/IV/2025",
+      action: "Lihat",
+    },
+    {
+      nama: "KERJASAMA PEMERINTAH DESA ADAT KETEWEL 2023",
+      tanggal: "16 Dec 2023",
+      nomor: "6/IV/2025",
+      action: "Lihat",
+    },
+    {
+      nama: "Peraturan Lama",
+      tanggal: "16 Aug 2023",
+      nomor: "4/I/2025/DKK",
+      action: "Lihat",
     },
   ];
 
   const columns = [
-    { header: "Nomor Perdes", key: "nama" },
-    { header: "Judul", key: "judul" },
+    { header: "Nama Regulasi", key: "nama" },
     { header: "Tanggal", key: "tanggal" },
-    { header: "Status", key: "status" },
-    { header: "Deskripsi", key: "deskripsi" },
+    { header: "Nomor", key: "nomor" },
     { header: "Action", key: "action" },
   ];
 

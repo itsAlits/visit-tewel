@@ -4,40 +4,22 @@ import Table from "../Components/Table";
 export default function page() {
   const data = [
     {
-      nama: "Pembangunan Jalan Desa Utara",
-      lokasi: "Banjar Kelod",
-      status: "Dalam Progress",
-      anggaran: "Rp 200.000.000",
-      keterangan:
-        "Pembangunan jalan sepanjang 2 km untuk akses transportasi warga",
-      action: "Lihat Detail",
-    },
-    {
-      nama: "Renovasi Balai Desa",
-      lokasi: "Pusat Desa",
-      status: "Selesai",
-      anggaran: "Rp 150.000.000",
-      keterangan:
-        "Renovasi balai desa untuk meningkatkan pelayanan masyarakat",
-      action: "Lihat Detail",
-    },
-    {
-      nama: "Pembangunan Posyandu",
-      lokasi: "Banjar Kaja",
-      status: "Perencanaan",
-      anggaran: "Rp 75.000.000",
-      keterangan:
-        "Pembangunan posyandu baru untuk kesehatan ibu dan anak",
+      regulasi: "Pembangunan Saluran Drainase Bale banjar Desa Ketewel",
+      tahun: "2025",
+      alamat:
+        "Jl. Gemitir Gg. Taman 2 No.8, Kesiman Kertalangu, Kec. Denpasar Tim., Kota Denpasar, Bali 80237, Indonesia",
+      sumber_dana: "ADD",
+      anggaran: "51.147.000",
       action: "Lihat Detail",
     },
   ];
 
   const columns = [
-    { header: "Nama Proyek", key: "nama" },
-    { header: "Lokasi", key: "lokasi" },
-    { header: "Status", key: "status" },
+    { header: "Regulasi", key: "regulasi" },
+    { header: "Tahun", key: "tahun" },
+    { header: "Alamat", key: "alamat" },
+    { header: "Sumber Dana", key: "sumber_dana" },
     { header: "Anggaran", key: "anggaran" },
-    { header: "Keterangan", key: "keterangan" },
     { header: "Action", key: "action" },
   ];
 
